@@ -1,0 +1,102 @@
+*{
+font : 10pt;
+}
+QLabel#label_title, QLabel#label_title_2, QLabel#title {
+font :14pt;
+}
+
+/* R1 */
+QMainWindow {
+    background-image: url(:/images/background.png);
+}
+QDialog{
+    background-image: url(:/images/background.png);
+}
+QMessageBox {
+    background-color: rgb(110,152,184);
+}
+/* R2 */
+QComboBox:editable,
+QLineEdit {
+    color: black;
+    background-color: rgb(255, 255, 241);
+    selection-color: white;
+    selection-background-color: rgb(90, 75, 255);
+    border: 2px groove gray;
+    border-radius: 10px;
+    padding: 2px 4px;
+}
+
+/* R3 */
+QPushButton {
+background-color: rgb(110,152,184);
+     border-style: outset;
+     border-width: 2px;
+     border-color: beige;
+     padding: 4px;
+}
+
+/* R4 */
+QComboBox:!editable:hover,
+QComboBox::drop-down:editable:hover,
+QPushButton:hover {
+background-color: rgb(31, 120, 180);
+}
+QComboBox QAbstractItemView { /*the item list*/
+     selection-background-color: rgb(31, 120, 180);
+ }
+
+/* R5 */
+QComboBox:!editable:on,
+QPushButton:pressed {
+    color: lightgray;
+	background-color: rgb(166, 206, 227);
+    padding-top: -15px;
+    padding-bottom: -17px;
+}
+
+/* R6 */
+QComboBox * {
+    font: 9pt;
+}
+
+/* R7 */
+QComboBox::drop-down:!editable {
+    subcontrol-origin: padding;
+    subcontrol-position: center right;
+    width: 11px;
+    height: 6px;
+    background: none;
+}
+
+/*R8*/
+QFrame#groupsWidget {
+background-color : white;
+/*background-image: url(:/images/background.png);*/
+} 
+
+QScrollArea {
+background: white;
+}
+
+QWidget#scrollAreaWidgetContents, QWebView#webView_lookseq
+{
+background : #6E98B8;/*button color*/
+}
+
+QLabel#labelLegend
+{
+background-image: url(:/images/background.png);
+}
+
+QGraphicsView#graphView_yax{
+background-image: url(:/images/background.png);
+}
+
+QGraphicsView#graphView_xax{
+background-image: url(:/images/background.png);
+}
+
+QWidget#widget_plotArea{
+background-image: url(:/images/background.png);
+}

@@ -1,0 +1,12 @@
+</script>
+        <script type="text/javascript">
+        window.onload=function(){
+                var data=document.getElementById('myxml').innerHTML;
+                        var dataObject = {
+                                xml: data,
+                                fileSource: false
+                        };              
+                        phylocanvas = new Smits.PhyloCanvas(
+                                dataObject,
+                                'svgCanvas', 
+

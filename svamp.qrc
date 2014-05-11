@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/svamp.png</file>
+        <file>images/SVAMP.icns</file>
+        <file>images/background.png</file>
+        <file>images/button.png</file>
+        <file>images/button-hover.png</file>
+        <file>images/button-pressed.png</file>
+        <file>images/down-arrow.png</file>
+        <file>html/head.html</file>
+        <file>html/foot1.html</file>
+        <file>html/foot2.html</file>
+        <file>qss/svamp_mac.qss</file>
+        <file>qss/svamp_win32.qss</file>
+        <file>images/background_green.png</file>
+        <file>images/background_lime.png</file>
+        <file>qss/svamp_mac_lime.qss</file>
+        <file>qss/svamp_mac_green.qss</file>
+        <file>qss/svamp_win32_green.qss</file>
+        <file>qss/svamp_win32_lime.qss</file>
+    </qresource>
+</RCC>
